@@ -1,0 +1,14 @@
+.navbar{
+    .nav-item{
+        transition: all .4s ease;
+
+        &:hover{
+            transition: all .4s ease;
+         color: red;
+            
+        }
+    }
+    .active{
+         color: red;
+    }
+}

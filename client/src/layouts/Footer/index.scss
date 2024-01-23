@@ -1,0 +1,29 @@
+.footer{
+    color: #868C98    ;
+    .footer-top{
+        .footer-title{
+            padding-bottom: 28px;
+             font-size: 20px;
+             color: black;
+             font-weight: 600;
+        }
+
+        ul{
+             display: flex;
+             flex-direction: column;
+             gap: 10px;
+             font-weight: 3 00;
+
+             li{
+                transition: all .4s ease;
+
+                 &:hover{
+                    color: red;
+                    transform: translateX(5px);
+                    transition: all .4s ease;
+                    cursor: pointer;
+                 }
+             }
+        }
+    }
+}
